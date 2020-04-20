@@ -37,7 +37,8 @@ class App extends Component {
         <Header />
         <div className='search grid'>
         {/* stack of gif images */}
-        <input className='input grid-item' placeholder='Type something'
+        <input className="input grid-item"
+         placeholder="Type something"
         onChnage={this.handleChange}
         onKeyPress={this.handleKeyPress}
         />
