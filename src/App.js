@@ -19,7 +19,7 @@ class App extends Component {
     }
   };
 
-  handleyKeyPress = event => {
+  handleKeyPress = event => {
     const {value} = event.target
     
     if (value.length > 2 && event.key === 'Enter') {
