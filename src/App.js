@@ -12,8 +12,8 @@ class App extends Component {
   // with create react app we can write our methods as arrow
   //functions, meaning we don't need the constructor and bind
 
-  handleChange = event =>{
-    const {value} = event.target
+  handleChange = event => {
+    const {value} = event.target;
     if (value.length > 2) {
      
     }
@@ -35,11 +35,11 @@ class App extends Component {
       <div className="page">
 
         <Header />
-        <div className='search grid'>
+        <div className="search grid">
         {/* stack of gif images */}
         <input className="input grid-item"
          placeholder="Type something"
-        onChnage={this.handleChange}
+        onChange={this.handleChange}
         onKeyPress={this.handleKeyPress}
         />
         
